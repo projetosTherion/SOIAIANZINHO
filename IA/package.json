@@ -1,0 +1,25 @@
+{
+  "name": "ia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "Therion",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-fetch": "^4.0.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "form-data": "^4.0.0",
+    "sucrase": "^3.35.0",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
